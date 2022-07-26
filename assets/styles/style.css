@@ -46,17 +46,25 @@ hr{
     margin-bottom: 20px;
 }
 .header-btn{
-    text-decoration: none;
-    background-color: #DD0000;
-    padding: 10px 20px;
+    width: 150px;
+    height: 45px;
     border-radius: 5px;
-    color: #ffffff;
+    border: none;
+    background-color: #DD0000;
+    font-size: 18px;
+    transition-property: width;
+    transition-duration: 1s; 
+}
+.header-btn a{
+    text-decoration: none;
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
 }
 .header-btn:hover{
     background-color: #000000;
-    border: 2px solid #ffffff;
+    border: 2px solid white;
+    width: 300px;
 }
 .header-right{
     padding: 35px 80px 0 0;
